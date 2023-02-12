@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <title>Comandos Git</title>
+    </head>
+    <body style = "background-color:#e9ecef">
+        <img src = "giti.webp" style= "float:right",width = "200" height="200",align = "left">
+        <p><center><h1>¿Qué es Git?</h1></center></p>
+        <p align="center">Git, es un software de control de versiones diseñado por Linus Torvalds. Creado pensando en la eficiencia y la confiabilidad del mantenimiento de versiones de aplicaciones cuando éstas tienen un gran número de archivos de código fuente, es decir Git nos proporciona las herramientas para desarrollar un trabajo en equipo de manera inteligente y rápida </p>
+
+        <ol>
+            <li><a href="#init">Init</a></li>
+            <li><a href="#status">Status</a></li>
+            <li><a href="#branch">Branch</a></li>
+            <li><a href="#checkout">Checkout</a></li>
+            <li><a href="#remote">Remote</a></li>
+            <li><a href="#pull">Pull</a></li>
+            <li><a href="#push">Push</a></li>
+            <li><a href="#clone">Clone</a></li>
+            <li><a href="#commit">Commit</a></li>                                                 
+        </ol><br>
+
+        <p id = "init"><i><b>Init</b></i><br>
+            El comando git init crea un nuevo repositorio de Git. Puede utilizarse para convertir un proyecto existente y sin versión en un repositorio de Git, o para inicializar un nuevo repositorio vacío.<br>
+            Ejemplo:<br>
+            $ git init
+        </p><br><br><br>
+
+        <p id = "status"><i><b>Status</b></i><br>
+            El comando de git status nos da toda la información necesaria sobre la rama actual.<br>
+            Ejemplo:<br>
+            $ git status
+        </p><br><br><br>
+
+        <p id = "branch"><i><b>Branch</b></i><br>
+            El comando git branch te permite crear, enumerar y eliminar ramas, así como cambiar su nombre pero no te permite cambiar entre ramas o volver a unir un historial bifurcado.            <br>Ejemplo:<br>
+            $ git branch --list
+        </p><br><br><br>
+
+        <p id = "checkout"><i><b>Checkout</b></i><br>
+            En términos de Git, "checkout" (extraer) es el acto de cambiar entre diferentes versiones de una entidad objetivo. El comando git checkout opera sobre tres entidades distintas: archivos, confirmaciones y ramas.
+            <br>Ejemplo:<br>
+            $ git checkout -b
+        </p><br><br><br>
+
+        <p id = "remote"><i><b>Remote</b></i><br>
+            El comando git remote es una parte de un sistema más amplio que se encarga de sincronizar los cambios. Los registros inscritos mediante el comando git remote se utilizan junto con los comandos git fetch, git push y git pull.            <br>Ejemplo:<br>
+            $ git remote -v
+        </p><br><br><br>
+
+        <p id = "pull"><i><b>Pull</b></i><br>
+            git pull es el comando que comprueba si hay cambios en el repositorio remoto y, en caso de que los haya, se trae esos archivos a tu repositorio local y actualiza tu espacio de trabajo            <br>Ejemplo:<br>
+            $ git pull -v
+        </p><br><br><br>
+
+        <p id = "push"><i><b>Push</b></i><br>
+            El comando git push se usa para cargar contenido del repositorio local a un repositorio remoto. El envío es la forma de transferir confirmaciones desde tu repositorio local a un repositorio remoto.           <br>Ejemplo:<br>
+             $ git push &lt;remote&gt &lt;branch &gt;
+        </p><br><br><br>
+
+        <p id = "clone"><i><b>Clone</b></i><br>
+            El comando git push se usa para cargar contenido del repositorio local a un repositorio remoto. El envío es la forma de transferir confirmaciones desde tu repositorio local a un repositorio remoto.           <br>Ejemplo:<br>
+             $ git push &lt;remote&gt &lt;branch &gt;
+        </p><br><br><br>
+
+        <p id = "commit"><i><b>Commit</b></i><br>
+            El comando git commit captura una instantánea de los cambios preparados en ese momento del proyecto. Las instantáneas confirmadas pueden considerarse como versiones "seguras" de un proyecto: Git no las cambiará nunca a no ser que se lo pidas expresamente.             <br>Ejemplo:<br>
+            $ git commit -a
+        </p><br><br><br>
+
+        
+    </body>
+</html>
